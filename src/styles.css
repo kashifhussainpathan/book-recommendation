@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #ce7777;
+  --secondary-color: #2b3a55;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-left: 0.7rem;
+  cursor: pointer;
+  border: 1px solid var(--secondary-color);
+}
+button:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+}
+
+hr {
+  max-width: 450px;
+  width: auto;
+  margin: auto;
+  margin-top: 1.2rem;
+}
+li {
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+ul {
+  padding-inline-start: 0px;
+}
+.name {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+.author {
+  padding-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.rating {
+  color: #a3a3a3;
+  font-size: smaller;
+}
+h1 {
+  color: var(--secondary-color);
+}
